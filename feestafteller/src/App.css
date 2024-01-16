@@ -40,3 +40,44 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1281px) {
+  
+  .h1-container {
+    font-size: 2.5rem
+  }
+  .countdown-container {
+    font-size: 1.5rem;
+  }
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .h1-container {
+    font-size: 2rem
+  }
+  .countdown-container {
+    font-size: 1rem;
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .h1-container {
+    font-size: 1.2rem
+  }
+  .countdown-container {
+    font-size: 0.7rem;
+  }
+  
+}
