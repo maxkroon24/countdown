@@ -24,7 +24,7 @@ useEffect(() => {
 }, [])
   return (
     <>
-    <img src="/Simple-New-Year-Background-edit-online.webp" alt="" />
+    <img src="/bram-naus-JKtKXGN5BSU-unsplash.jpg" alt="" />
   <div className="h1-container">
     <h1>New Years Eve</h1>
   </div>
